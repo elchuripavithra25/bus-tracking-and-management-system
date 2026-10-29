@@ -38,3 +38,23 @@ OOP Concepts Used:
 What we Learned
 
 While working on this project, I got practical experience with classes, inheritance, virtual functions, vectors, and file handling. I also learned how to organize a program into different functions and create a menu-driven application.
+
+## Compile and Run
+
+You need a C++ compiler that supports C++11 or later.
+
+Compile the program:
+
+```bash
+g++ -std=c++11 "bus tracking management sytem.cpp" -o bus_system
+```
+
+Run on Linux or macOS:
+
+```bash
+./bus_system
+```
+
+On Windows, run `bus_system.exe`.
+
+The program reads and writes bus records in `buses.txt` in its current working directory.
